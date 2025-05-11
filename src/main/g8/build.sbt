@@ -4,7 +4,7 @@ lazy val $name;format="lower"$ = project
   .in(file("."))
   .enablePlugins(ScalaJSPlugin) // Enable the Scala.js plugin in this project
   .settings(
-    scalaVersion                    := "3.6.4",
+    scalaVersion                    := "3.7.0",
     scalacOptions ++= Seq(
       "-language:strictEquality",
       "-source:future",

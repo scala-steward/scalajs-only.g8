@@ -4,7 +4,7 @@ lazy val $name;format="lower"$ = project
   .in(file("."))
   .enablePlugins(ScalaJSPlugin) // Enable the Scala.js plugin in this project
   .settings(
-    scalaVersion                    := "3.7.0",
+    scalaVersion                    := "3.7.3",
     scalacOptions ++= Seq(
       "-language:strictEquality",
       "-source:future",
@@ -21,7 +21,7 @@ lazy val $name;format="lower"$ = project
     },
     libraryDependencies ++= Seq(
       "org.scala-js" %%% "scalajs-dom" % "2.8.0",
-      "com.raquo"    %%% "laminar"     % "17.2.0",
+      "com.raquo"    %%% "laminar"     % "17.2.1",
       "org.felher"   %%% "beminar"     % "1.1.0"
     )
   )
